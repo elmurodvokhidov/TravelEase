@@ -1,0 +1,160 @@
+.section3 {
+    max-width: 1920px;
+    width: 100%;
+    height: 1800px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.fr {
+    margin: 100px 250px;
+
+}
+
+.rf {
+    width: 400px;
+    height: 500px;
+}
+
+.ft {
+    position: relative;
+    top: 400px;
+    left: 100px;
+}
+
+.ff {
+    position: absolute;
+    padding: 100px 600px;
+}
+
+.nf {
+    width: 100px;
+    height: 100px;
+}
+
+.text {
+    position: relative;
+    left: 820px;
+    top: 440px;
+}
+
+.maint_h1 {
+    font-family: Noto Serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.best {
+    position: relative;
+    top: 30px;
+}
+
+.best_h3 {
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.best_p {
+    font-family: Product Sans;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A79997;
+
+}
+
+.world {
+    position: relative;
+    top: 90px;
+}
+
+.world_h3 {
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.headphones {
+    position: relative;
+    top: 180px;
+}
+
+.h_h3 {
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sec3 {
+    display: flex;
+    gap: 30px;
+}
+
+.plus {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #FF715B;
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+.cards {
+    position: relative;
+    left: 70px;
+    top: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+.cards:hover {
+    transform: translateY(-50px);
+}
+
+.minicard {
+    box-shadow: 0px 10px 25px 0px #D7BEBE33;
+    width: 240px;
+    position: relative;
+    bottom: 40px;
+    left: 210px;
+    background-color: white;
+    padding: 10px;
+}
+
+.p {
+    color: red;
+}
+
+.h6 {
+    font-size: 20px;
+    font-family: Noto Serif;
+}
+
+.h11 {
+    font-family: Noto Serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
