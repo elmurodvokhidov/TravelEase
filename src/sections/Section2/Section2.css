@@ -1,0 +1,91 @@
+.map1 {
+    width: 128px;
+    margin-left: 101px;
+}
+
+.cartsec2 {
+    width: 326px;
+    height: 326px;
+    flex-shrink: 0;
+    background: #F8F8F8;
+}
+
+.choose {
+    color: #2C2C2C;
+    text-align: center;
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 24px;
+
+}
+
+.lorem1 {
+    color: #A79997;
+    text-align: center;
+    font-family: Product Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+
+
+}
+
+.cardsec2 {
+    display: flex;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.h2jon {
+    color: #2C2C2C;
+    font-family: Noto Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.its {
+    color: #A79997;
+    font-family: Product Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 40px;
+
+}
+
+.disc:hover {
+    background: #7f5853;
+    transition: 0.2s;
+}
+
+.disc {
+    background: #FF715B;
+    width: 145px;
+    border: none;
+    height: 44px;
+    flex-shrink: 0;
+    color: white;
+    margin-top: 60px;
+}
+
+.top {
+    margin-left: 100px;
+}
+
+
+.dad{
+    display: flex;
+}
+
+.rasm3{
+    margin-left: 15px;
+}
+.rasm1{
+    margin-left: 20px;
+}

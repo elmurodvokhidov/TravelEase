@@ -1,0 +1,94 @@
+.title {
+    margin-top: 200px;
+    width: 710px;
+    height: 116px;
+    color: #2C2C2C;
+    font-family: Noto Serif;
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.section4Part1 {
+    display: flex;
+    justify-content: space-between;
+}
+.section4Part2{
+    border-radius: 13px;
+    margin-top: 200px;
+    background: linear-gradient(90deg, #A6F2F2 0%, #DDF181 100%);
+    height: 550px;
+}
+
+.card {
+    border-top: 11px solid #FF715B;
+    width: 690px;
+    height: 513px;
+    box-shadow: 0px 20px 30px 0px rgba(227, 202, 202, 0.30);
+    position: relative;
+    background-color: #fff;
+}
+
+.personImg {
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.personImg p {
+    color: #000;
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.personImg span {
+    color: #FF715B;
+    font-family: Product Sans;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.information {
+    width: 570px;
+    height: 231px;
+    color: #A79997;
+    text-align: center;
+    font-family: Product Sans;
+    font-size: 24px;
+    margin-top: 50px;
+    line-height: 36px;
+}
+
+.controllerBtn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.controllerBtn li {
+    width: 23px;
+    height: 23px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.chosen {
+    outline: 4px solid #FF715B;
+    border: 4px solid #fff;
+    background-color: #FF715B !important;
+}
+
+.circle {
+    position: absolute;
+    right: -111px;
+    bottom: -101px;
+    width: 242px;
+    height: 242px;
+    background-color: #FFF8F8;
+    z-index: -10;
+    border-radius: 50%;
+}
