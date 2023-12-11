@@ -1,0 +1,103 @@
+*,*::after, *::before{
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.navbar__ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #2C2C2C;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.navbar__ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.navbar__nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 35px;
+    background: #FFF;
+}
+.logo{
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.navbar__account{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #2C2C2C;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.navbar__account .usericon{
+    position: relative;
+    top: 1.8px;
+    margin-right: 4px;
+}
+.navbar__account .searchicon{
+    position: relative;
+    top: 3px;
+    margin-right: 4px;
+}
+.navbar__account div{
+    cursor: pointer;
+}
+.navbar__toggle div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background-color: black;
+}
+.navbar__toggle{
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 840px){
+    .navbar__toggle{
+        display: block;
+    }
+    .navbar__ul, .navbar__account{
+        position: fixed;
+        top: 17.5vh;
+        right: 0;
+        width: 50%;
+        height: 23vh;
+        z-index: 999;
+        padding-bottom: 15px;
+        background: #FFF;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: all .3s ease-in;
+    }
+    .navbar__ul li a{
+        color: #000;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.navbar__active{
+    transform: translateX(0);
+}
+.toggler .line1{
+    transform: rotate(-45deg) translate(-4px, 5px)
+}
+.toggler .line2{
+    opacity: 0;
+}
+.toggler .line3{
+    transform: rotate(45deg) translate(-4px, -5px)
+}
