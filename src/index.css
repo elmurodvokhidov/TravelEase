@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+}
