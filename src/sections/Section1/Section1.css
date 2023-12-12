@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Inter:wght@400;500;600;700&family=Mulish:wght@400;700&family=Noto+Serif:wght@500&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto:wght@400;700&family=Sometype+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Inter:wght@400;500;600;700&family=Mulish:wght@400;700&family=Noto+Serif:wght@500;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto:wght@400;700&family=Sometype+Mono:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    /* overflow-x: hidden; */
+}
+
+.section-1 {
+    background-image: url(./img/hero-banner\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1920px;
+    height: 1060px;
+
+}
+
+.text-part-section-1 {
+    width: fit-content;
+    position: relative;
+    top: 255px;
+    left: 150px;
+}
+
+.global_btn {
+    padding: 18px 36px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    font-family: Noto Serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.g_btn_1 {
+    margin-top: 50px;
+}
+
+.section-1-main-text {
+    color: #2C2C2C;
+    font-family: Noto Serif;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 112px;
+    /* padding-top: 285px; */
+}
+
+.section-1-desctination-1-text-1 {
+    color: #A79997;
+    font-family: Product Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-1-desctination-1-text-2 {
+    color: #FF715B;
+    font-family: Noto Serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-1-statistic-part {
+    display: flex;
+    margin-top: 600px;
+    background-color: white;
+    padding: 35px 45px;
+    border: 1px solid silver;
+    margin-left: 100px;
+}
+
+.icon-1-section-1 {
+    color: #FF715B;
+}
+
+.section-1-pagination-part {
+    display: flex;
+    gap: 170px;
+    /* margin-top: 700px; */
+}
+
+.section-1-desctination-1 {
+    padding: 10px 20px 10px 5px;
+}
+
+.img-pagination-section-1 {
+    margin-top: 700px;
+    margin-left: 160px;
+}
