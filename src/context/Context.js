@@ -11,19 +11,19 @@ export default function ContextFunc({ children }) {
             about: "Jetrips Hotel is an excellent choice for anybody for considering hosting their events there. Top levela facilities and excellent staff make for a brilliantad environment within which to operate. The hotel is meticulous in its planning."
         },
         {
-            img: "./img/imgPerson.jpg",
+            img: "./img/imgPerson2.png",
             name: "Odamcha",
             job: "UI",
             about: "ishchi."
         },
         {
-            img: "./img/imgPerson.jpg",
+            img: "./img/imgPerson3.png",
             name: "Soxta",
             job: "Km bu",
             about: "oddiy ishchi."
         },
         {
-            img: "./img/imgPerson.jpg",
+            img: "./img/imgPerson4.png",
             name: "Md Shamim Hossain",
             job: "Designer",
             about: "Super ishchi."
