@@ -8,7 +8,7 @@ import { GrLocation } from "react-icons/gr";
 function Footer() {
   return (
     <>
-      <footer>
+      <footer className='container'>
         <div>
           <img src='/img/logo.png' alt="" />
           <p>You can dream, create, design, and buildsa the most wonderful place.</p><br />
